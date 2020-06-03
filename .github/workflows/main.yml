@@ -22,5 +22,5 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE
         make prepare
-        make BOARD=xm_ivg-83h80nv-be_hi3516av200_os08a10 all
+        make BOARD=my_unknown_hi3516av200_unknown all
         
